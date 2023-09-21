@@ -36,11 +36,11 @@
 
         default_layer {
             bindings = <
-                         &kp ESC               &kp AT_SIGN  &kp MINUS    &kp NON_US_BACKSLASH  &kp EXCLAMATION  &kp BACKSLASH    &kp PERCENT  &kp SLASH  &kp NON_US_HASH   &kp EQUAL             &kp ASTERISK  &kp HASH
-&lt 1 RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp Q        &kp W        &kp E                 &kp R            &kp T            &kp Y        &kp U      &kp I             &kp O                 &kp P         &kp LBKT          &lt 2 RIGHT_BRACKET
-                         &kp BACKSPACE         &kp A        &kp S        &kp D                 &kp F            &kp G            &kp H        &kp J      &kp K             &kp L                 &kp SEMI      &kp SINGLE_QUOTE
-                         &kp TAB               &kp Z        &kp X        &kp C                 &kp V            &kp B            &kp N        &kp M      &kp COMMA         &kp DOT               &kp FSLH      &kp GRAVE
-                                                            &lang_macro  &kp LCMD              &kp LEFT_SHIFT   &kp ENTER        &kp SPACE    &kp LCTRL  &mt LEFT_ALT ESC  &kp LG(LS(NUMBER_4))
+                         &kp ESC               &kp AT_SIGN  &kp MINUS    &kp NON_US_BACKSLASH  &kp EXCLAMATION  &kp BACKSLASH    &kp PERCENT  &kp KP_SLASH  &kp NON_US_HASH   &kp EQUAL             &kp ASTERISK  &kp HASH
+&lt 1 RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp Q        &kp W        &kp E                 &kp R            &kp T            &kp Y        &kp U         &kp I             &kp O                 &kp P         &kp LBKT          &lt 2 RIGHT_BRACKET
+                         &kp BACKSPACE         &kp A        &kp S        &kp D                 &kp F            &kp G            &kp H        &kp J         &kp K             &kp L                 &kp SEMI      &kp SINGLE_QUOTE
+                         &kp TAB               &kp Z        &kp X        &kp C                 &kp V            &kp B            &kp N        &kp M         &kp COMMA         &kp DOT               &kp FSLH      &kp GRAVE
+                                                            &lang_macro  &kp LCMD              &kp LEFT_SHIFT   &kp ENTER        &kp SPACE    &kp LCTRL     &mt LEFT_ALT ESC  &kp LG(LS(NUMBER_4))
             >;
         };
 
@@ -57,7 +57,7 @@
         num_layer {
             bindings = <
        &trans        &kp CARET        &kp AMPERSAND  &kp PIPE   &kp DOLLAR  &kp TILDE       &lt 3 SPACE  &none   &none   &none   &none  &none
-&none  &kp KP_MINUS  &kp KP_DIVIDE    &kp KP_N7      &kp KP_N8  &kp KP_N9   &kp KP_MINUS    &none        &none   &none   &none   &none  &none  &trans
+&none  &kp KP_MINUS  &kp KP_SLASH     &kp KP_N7      &kp KP_N8  &kp KP_N9   &kp KP_MINUS    &none        &none   &none   &none   &none  &none  &trans
        &trans        &kp KP_MULTIPLY  &kp KP_N4      &kp KP_N5  &kp KP_N6   &kp KP_PLUS     &none        &none   &none   &none   &none  &none
        &kp KP_EQUAL  &kp KP_N0        &kp KP_N1      &kp KP_N2  &kp KP_N3   &kp KP_DOT      &none        &none   &none   &none   &none  &none
                                       &trans         &trans     &trans      &trans          &trans       &trans  &trans  &trans
